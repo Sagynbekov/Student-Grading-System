@@ -1,0 +1,5 @@
+1,Jon,Jones,English,2024-01-01
+2,Conor,Mcgregor,PL,2024-01-01
+3,Habib,Nurmagomedov,Computer Science,2024-01-01
+4,Dastin,Poirier,Discrete Math,2024-01-01
+5,Max,Holloway,Probability and Statistic,2024-01-01

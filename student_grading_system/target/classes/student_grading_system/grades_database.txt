@@ -1,0 +1,7 @@
+Sasha Nyrko,PL1:Midterm-100 100;Quiz-100 100 100 99 85 100 100;Final-100;
+Adilet Sagynbekov,PL1:Midterm-100 100;Quiz-100 100 90 90 85 85 100;Final-100;,Probability and Statistic:Midterm-100;Quiz-100 90 90 86 95 100 100;Final-100;,PL2:Midterm-100;Quiz-100 85 90 95 100 88 90;Final-96;,Computer Science:Midterm-95;Quiz-69 75 88 90 100 70 90;Final-85;,Discrete Math:Midterm-95;Quiz-95 80 80 75 90 95 95;Final-97;
+Bayel Egemberdiev,PL1:Midterm-99 99;Quiz-100 100 70 75 80 80 90;Final-100;,PL2:Midterm-100;Quiz-100 100 70 75 90 80 85;Final-96;
+Bek Ibragimov,PL1:Midterm-75 100;Quiz-100 100 100 0 50 60 55;Final-100;,PL2:Midterm-100;Quiz-85 100 100 70 77 72 85;Final-96;
+Bektur Mongol,PL1:Midterm-0 0;Quiz-100 100 100 100 100 100 100;Final-100;
+Emir Aitmurzaev,PL1:Midterm-80 80;Quiz-100 80 80 80 99 95 100;Final-100;
+Akbar Kalmatov,PL1:Midterm-89 99;Quiz-100 100 60 60 70 78 89;Final-100;

@@ -1,0 +1,45 @@
+Year-1 | Semestr-1 | Thursday | 10.00-11.20 | Discrete Math
+Year-1 | Semestr-1 | Monday | 10.00-11.20 | Probability and Statistics
+Year-1 | Semestr-1 | Wednesday | 10.00-11.20 | Probability and Statistic
+Year-1 | Semestr-1 | Tuesday | 10.00-11.20 | English Spoken
+Year-1 | Semestr-2 | Thursday | 10.00-11.20 | PL2
+Year-1 | Semestr-2 | Monday | 10.00-11.20 | Web Devlopment
+Year-1 | Semestr-2 | Wednesday | 10.00-11.20 | English
+Year-1 | Semestr-2 | Tuesday | 10.00-11.20 | PL2 Lab
+Year-1 | Semestr-1 | Thursday | 11.30-12.50 | Intro to CS
+Year-1 | Semestr-1 | Monday | 11.30-12.50 | Intro to CS
+Year-1 | Semestr-1 | Wednesday | 11.30-12.50 | Intro to CS
+Year-1 | Semestr-1 | Tuesday | 11.30-12.50 | Discrete Math
+Year-1 | Semestr-2 | Thursday | 11.30-12.50 | PL2 lab
+Year-1 | Semestr-2 | Monday | 11.30-12.50 | Web Devlopment
+Year-1 | Semestr-2 | Wednesday | 11.30-12.50 | Comp Arch
+Year-1 | Semestr-2 | Tuesday | 11.30-12.50 | PL2
+Year-1 | Semestr-1 | Thursday | 13.00-14.20 | LUNCH
+Year-1 | Semestr-1 | Monday | 13.00-14.20 | LUNCH
+Year-1 | Semestr-1 | Wednesday | 13.00-14.20 | LUNCH
+Year-1 | Semestr-1 | Tuesday | 13.00-14.20 | LUNCH
+Year-1 | Semestr-2 | Thursday | 13.00-14.20 | LUNCH
+Year-1 | Semestr-2 | Monday | 13.00-14.20 | LUNCH
+Year-1 | Semestr-2 | Wednesday | 13.00-14.20 | LUNCH
+Year-1 | Semestr-2 | Tuesday | 13.00-14.20 | LUNCH
+Year-1 | Semestr-1 | Thursday | 14.30-15.50 | PL
+Year-1 | Semestr-1 | Monday | 14.30-15.50 | PL
+Year-1 | Semestr-1 | Friday | 14.30-15.50 | Kyrgyz - Russian
+Year-1 | Semestr-1 | Wednesday | 14.30-15.50 | PL
+Year-1 | Semestr-1 | Tuesday | 14.30-15.50 | PL
+Year-1 | Semestr-2 | Thursday | 14.30-15.50 | Algo and Complexity
+Year-1 | Semestr-2 | Monday | 14.30-15.50 | Web Devlopment
+Year-1 | Semestr-2 | Wednesday | 14.30-15.50 | Linear Algebra
+Year-1 | Semestr-2 | Tuesday | 14.30-15.50 | WebDev Lab
+Year-1 | Semestr-1 | Thursday | 16.00-17.20 | PL lab
+Year-1 | Semestr-1 | Monday | 16.00-17.20 | PL lab
+Year-1 | Semestr-1 | Wednesday | 16.00-17.20 | PL lab
+Year-1 | Semestr-1 | Tuesday | 16.00-17.20 | PL lab
+Year-1 | Semestr-2 | Thursday | 16.00-17.20 | English
+Year-1 | Semestr-2 | Monday | 16.00-17.20 | Algoritms
+Year-1 | Semestr-2 | Wednesday | 16.00-17.20 | Prof English
+Year-1 | Semestr-2 | Tuesday | 16.00-17.20 | WebDev Lab
+Year-1 | Semestr-2 | Thursday | 8.30-9.50 | Prof English
+Year-1 | Semestr-2 | Monday | 8.30-9.50 | English
+Year-1 | Semestr-2 | Wednesday | 8.30-9.50 | English
+Year-1 | Semestr-2 | Tuesday | 8.30-9.50 | English

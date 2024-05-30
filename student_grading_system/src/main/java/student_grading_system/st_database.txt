@@ -1,0 +1,7 @@
+1,Adilet,Sagynbekov,2005-09-24,Male,1-year,1-semestr
+2,Bayel,Egemberdiev,2024-05-01,Male,1-year,1-semestr
+3,Bek,Ibragimov,2024-05-01,Male,1-year,1-semestr
+4,Sasha,Nyrko,2024-05-01,Male,1-year,1-semestr
+5,Bektur,Mongol,2024-05-01,Male,1-year,1-semestr
+6,Akbar,Kalmatov,2024-05-01,Male,1-year,1-semestr
+7,Emir,Aitmurzaev,2024-05-01,Male,1-year,1-semestr

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="567.0" prefWidth="758.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="student_grading_system.admin_schedule_controller">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane layoutX="2.2" prefHeight="567.0" prefWidth="170.0" style="-fx-background-color: #24ccff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="2.2" AnchorPane.rightAnchor="585.8" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button layoutY="201.0" mnemonicParsing="false" onAction="#add_students_button" prefHeight="40.0" prefWidth="174.0" style="-fx-background-color: white;" text="Add students">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutX="6.0" layoutY="527.0" mnemonicParsing="false" onAction="#sign_out_button" prefHeight="33.0" prefWidth="76.0" style="-fx-background-radius: 10; -fx-background-color: white; -fx-font-style: red;" text="Sign out">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="48.0" layoutY="14.0" text="AIT" textFill="WHITE">
+                     <font>
+                        <Font name="Calibri Bold" size="50.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="59.0" layoutY="102.0" text="Admin" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Line endX="80.60002136230469" fill="WHITE" layoutX="86.0" layoutY="88.0" startX="-77.80000305175781" stroke="WHITE" strokeWidth="2.0" />
+                  <Text fill="WHITE" layoutX="7.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status:">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Button layoutY="158.0" mnemonicParsing="false" onAction="#add_teachers_button" prefHeight="40.0" prefWidth="174.0" style="-fx-background-color: white;" text="Add teachers">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutY="243.0" mnemonicParsing="false" onAction="#rating_button" prefHeight="40.0" prefWidth="174.0" style="-fx-background-color: white;" text="Rating" AnchorPane.topAnchor="243.0">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutY="286.0" mnemonicParsing="false" onAction="#watch_profile_button" prefHeight="40.0" prefWidth="174.0" style="-fx-background-color: white;" text="Watch Profile">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutY="329.0" mnemonicParsing="false" onAction="#users_button" prefHeight="40.0" prefWidth="174.0" style="-fx-background-color: white;" text="Users">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button disable="true" layoutY="372.0" mnemonicParsing="false" onAction="#schedule_button" prefHeight="40.0" prefWidth="174.0" style="-fx-background-color: white;" text="Schedule">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="177.0" layoutY="-1.0" prefHeight="567.0" prefWidth="583.0" style="-fx-background-color: white;">
+               <children>
+                  <Text fill="#006fff" layoutX="133.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="American Institute of Technology">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#006fff" layoutX="192.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Grading System">
+                     <font>
+                        <Font name="Arial Bold" size="17.0" />
+                     </font>
+                  </Text>
+                  <TableView fx:id="schedule_table" layoutX="21.0" layoutY="123.0" prefHeight="214.0" prefWidth="539.0">
+                    <columns>
+                      <TableColumn fx:id="time_column" prefWidth="75.0" text="Time" />
+                      <TableColumn fx:id="monday_column" prefWidth="75.0" text="Monday" />
+                        <TableColumn fx:id="tuesday_column" prefWidth="75.0" text="Tuesday" />
+                        <TableColumn fx:id="wednesday_column" prefWidth="75.0" text="Wednesday" />
+                        <TableColumn fx:id="thursday_column" prefWidth="75.0" text="Thursday" />
+                        <TableColumn fx:id="friday_column" prefWidth="77.60003662109375" text="Friday" />
+                        <TableColumn fx:id="saturday_column" minWidth="5.599853515625" prefWidth="84.7999267578125" text="Saturday" />
+                    </columns>
+                  </TableView>
+                  <ComboBox fx:id="year_filter_input" layoutX="21.0" layoutY="82.0" prefHeight="26.0" prefWidth="146.0" promptText="Year" />
+                  <ComboBox fx:id="semestr_filter_input" layoutX="192.0" layoutY="82.0" prefHeight="26.0" prefWidth="145.0" promptText="Semestr">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ComboBox>
+                  <ComboBox fx:id="year_input" layoutX="22.0" layoutY="353.0" prefHeight="30.0" prefWidth="174.0" promptText="Year">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ComboBox>
+                  <ComboBox fx:id="semestr_input" layoutX="219.0" layoutY="353.0" prefHeight="30.0" prefWidth="174.0" promptText="Semestr">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ComboBox>
+                  <ComboBox fx:id="time_input" layoutX="21.0" layoutY="396.0" prefHeight="30.0" prefWidth="174.0" promptText="Time">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ComboBox>
+                  <ComboBox fx:id="day_input" layoutX="220.0" layoutY="396.0" prefHeight="30.0" prefWidth="174.0" promptText="Day">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ComboBox>
+                  <TextField fx:id="class_input" layoutX="21.0" layoutY="439.0" promptText="Class">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Button layoutX="219.0" layoutY="480.0" mnemonicParsing="false" onAction="#submit_button" prefHeight="30.0" prefWidth="174.0" style="-fx-background-color: #0097ff;" text="Submit" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="21.0" layoutY="480.0" mnemonicParsing="false" onAction="#delete_button" prefHeight="30.0" prefWidth="174.0" style="-fx-background-color: red;" text="Delete" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

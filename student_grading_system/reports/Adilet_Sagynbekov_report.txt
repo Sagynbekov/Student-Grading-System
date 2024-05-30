@@ -1,0 +1,28 @@
+Student id: 1
+Name: Adilet
+Last name: Sagynbekov
+Birth Date: 2005-09-24
+Gender: Male
+Year: 1-year
+Semestr: 1-semestr
+
+=======PL1=======
+Midterm: 100,00
+Quiz: 92,86
+Final: 100,00
+=======Probability and Statistic=======
+Midterm: 100,00
+Quiz: 94,43
+Final: 100,00
+=======PL2=======
+Midterm: 100,00
+Quiz: 92,57
+Final: 96,00
+=======Computer Science=======
+Midterm: 95,00
+Quiz: 83,14
+Final: 85,00
+=======Discrete Math=======
+Midterm: 95,00
+Quiz: 87,14
+Final: 97,00

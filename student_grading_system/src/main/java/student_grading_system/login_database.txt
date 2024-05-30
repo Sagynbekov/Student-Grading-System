@@ -1,0 +1,12 @@
+Jon,Jones1t
+Conor,Mcgregor2t
+Habib,Nurmagomedov3t
+Dastin,Poirier4t
+Max,Holloway5t
+Adilet,Sagynbekov1s
+Bayel,Egemberdiev2s
+Bek,Ibragimov3s
+Sasha,Nyrko4s
+Bektur,Mongol5s
+Akbar,Kalmatov6s
+Emir,Aitmurzaev7s

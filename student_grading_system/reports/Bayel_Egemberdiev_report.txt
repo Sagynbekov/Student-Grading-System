@@ -1,0 +1,16 @@
+Student id: 2
+Name: Bayel
+Last name: Egemberdiev
+Birth Date: 2024-05-01
+Gender: Male
+Year: 1-year
+Semestr: 1-semestr
+
+=======PL1=======
+Midterm: 99,00
+Quiz: 85,00
+Final: 100,00
+=======PL2=======
+Midterm: 100,00
+Quiz: 85,71
+Final: 96,00
