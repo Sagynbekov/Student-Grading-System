@@ -1,6 +1,7 @@
 **Student grading system**
 
 There will be three types of user (Admin, Student, Teacher).
+
 There will be a Rating section where the user can select a class and sort by this class
 
 1. **Admin can:**
